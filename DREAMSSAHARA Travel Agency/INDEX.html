@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara Dreams - Tunisian Travel Agency</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="https://dreamssahara.com/wp-content/uploads/2024/02/Yellow-Orange-Minimalist-Camel-Sun-Logo-e1707230379941.png" alt="Sahara Dreams Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tours">Tours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="text-center text-white hero-content">
+                <h1 class="display-3 fw-bold mb-3">Discover Tunisia's Magic</h1>
+                <p class="lead mb-4">Explore ancient ruins, golden deserts, and vibrant cultures</p>
+                <div class="hero-buttons">
+                    <a href="#destinations" class="btn btn-warning btn-lg">Start Your Adventure</a>
+                    <a href="#tours" class="btn btn-outline-light btn-lg ms-3">View Tour Packages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESTINATIONS SECTION -->
+    <section id="destinations" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Featured Destinations</h2>
+                <p class="text-muted fs-5">Explore the most breathtaking locations in Tunisia</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Destination 1: Sidi Bou Said -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/33530619/pexels-photo-33530619.jpeg" 
+                             class="card-img-top" alt="Sidi Bou Said">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sidi Bou Said</h5>
+                            <p class="card-text">
+                                A picturesque coastal village famous for its stunning blue and white architecture, 
+                                white-washed buildings, and panoramic views of the Mediterranean Sea.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 2: Tunis Medina -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/27622083/pexels-photo-27622083.jpeg" 
+                             class="card-img-top" alt="Tunis Medina">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Tunis Medina</h5>
+                            <p class="card-text">
+                                Wander through historic medinas filled with colorful souks, ancient mosques, 
+                                and traditional Tunisian architecture.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 3: Bizerte -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/30660281/pexels-photo-30660281.jpeg" 
+                             class="card-img-top" alt="Bizerte">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bizerte</h5>
+                            <p class="card-text">
+                                A picturesque fishing town in northern Tunisia with a charming old medina, serene harbor, 
+                                and rich maritime history waiting to be explored.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 4: Hammamet -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/13131966/pexels-photo-13131966.jpeg" 
+                             class="card-img-top" alt="Hammamet">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Hammamet</h5>
+                            <p class="card-text">
+                                A charming coastal town known for its beautiful beaches, medina, and the impressive Hammamet Kasbah. 
+                                Perfect for seaside relaxation and cultural exploration.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 5: Nabeul -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/28429087/pexels-photo-28429087.jpeg" 
+                             class="card-img-top" alt="Nabeul">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Nabeul</h5>
+                            <p class="card-text">
+                                Famous for its pottery workshops and beautiful beaches, Nabeul offers authentic crafts and 
+                                spectacular coastal views for a memorable experience.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 6: Sousse -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/5649977/pexels-photo-5649977.jpeg" 
+                             class="card-img-top" alt="Sousse">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sousse</h5>
+                            <p class="card-text">
+                                A vibrant Mediterranean port city with stunning beaches, a historic medina, and the impressive Ribat fortress. 
+                                Ideal for beach lovers and history enthusiasts.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 7: Monastir Ribat -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/30341254/pexels-photo-30341254.jpeg" 
+                             class="card-img-top" alt="Monastir Ribat">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Monastir Ribat</h5>
+                            <p class="card-text">
+                                Home to one of the most impressive Islamic fortresses in North Africa. 
+                                Experience stunning architecture and panoramic Mediterranean views.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 8: Kairouan -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/30293402/pexels-photo-30293402.jpeg" 
+                             class="card-img-top" alt="Kairouan">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Kairouan</h5>
+                            <p class="card-text">
+                                One of the holiest cities in Islam with the stunning Great Mosque, intricate carpets, 
+                                and rich Islamic heritage waiting to be explored.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 9: Djerba Island -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://plus.unsplash.com/premium_photo-1699526399120-d6a8184be75d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                             class="card-img-top" alt="Djerba Island">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Djerba Island</h5>
+                            <p class="card-text">
+                                Experience pristine beaches, traditional villages, and the famous El Ghriba Synagogue. 
+                                Perfect for relaxation and cultural immersion.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 10: Chebika -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/2102628/pexels-photo-2102628.jpeg" 
+                             class="card-img-top" alt="Chebika">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Chebika</h5>
+                            <p class="card-text">
+                                An oasis village nestled in the Saharan mountains with breathtaking waterfalls, 
+                                ancient ruins, and stunning desert landscapes.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 11: Matmata & Ksour -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/28438444/pexels-photo-28438444.jpeg" 
+                             class="card-img-top" alt="Matmata">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Matmata & Ksour</h5>
+                            <p class="card-text">
+                                Discover the unique troglodyte dwellings of Matmata and the fortified granaries of the Ksour. 
+                                Experience traditional Berber culture and ancient architecture.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 12: Sahara Desert -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card destination-card h-100">
+                        <img src="https://images.pexels.com/photos/30710161/pexels-photo-30710161.jpeg" 
+                             class="card-img-top" alt="Sahara Desert">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sahara Desert</h5>
+                            <p class="card-text">
+                                Adventure awaits in the golden dunes of Douz and Tozeur. Enjoy camel trekking, 
+                                desert camping, and breathtaking sunsets.
+                            </p>
+                            <a href="#" class="btn btn-outline-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TOURS SECTION -->
+    <section id="tours" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Tour Packages</h2>
+                <p class="text-muted fs-5">Choose your perfect Tunisian adventure</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Tour 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Classic Tunisia - 7 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 7 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 6 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$899<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Explore Tunis, Djerba Island, Hammamet, and the Sahara Desert. Includes camel trekking, beach relaxation, and traditional Tunisian cuisine.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Desert Adventure - 5 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 5 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 4 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$649<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Immerse yourself in the Sahara with desert camping, camel safaris, and visits to ancient oasis towns like Tozeur and Nefta.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Beach & Culture - 6 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 6 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 5 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$749<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Perfect blend of beach relaxation and cultural exploration. Visit Hammamet, Sousse, Nabeul, and experience local markets and pottery workshops.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Luxury Escape - 8 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 8 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 7 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$1,299<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Premium experience with 5-star accommodations, private guides, exclusive desert dinners, and spa treatments.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Northern Coast Explorer - 6 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 6 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 5 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$799<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Discover the charm of northern Tunisia. Visit Bizerte's historic harbor, explore Monastir's Ribat fortress, and relax on pristine Mediterranean beaches.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Oasis & Mountains Adventure - 7 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 7 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 6 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$899<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Experience the hidden gems of Tunisia. Explore the dramatic waterfalls of Chebika, witness troglodyte homes of Matmata, and discover ancient Ksour granaries.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 7 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Complete Tunisia - 10 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 10 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 9 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$1,499<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">The ultimate Tunisian experience! Visit all major destinations: Tunis, Hammamet, Sousse, Bizerte, Monastir, Chebika, Matmata, Sidi Bou Said, Kairouan, and Sahara.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tour 8 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card tour-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold mb-2">Historic & Coastal Gems - 7 Days</h5>
+                            <div class="tour-meta mb-3">
+                                <span class="badge bg-primary me-2"><i class="bi bi-calendar"></i> 7 Days</span>
+                                <span class="badge bg-secondary"><i class="bi bi-moon"></i> 6 Nights</span>
+                            </div>
+                            <div class="tour-price mb-3">
+                                <h4 class="text-primary fw-bold mb-0">$949<span class="fs-6 text-muted">/person</span></h4>
+                            </div>
+                            <p class="card-text flex-grow-1">Explore Tunisia's most iconic destinations. Visit the holy city of Kairouan with its Great Mosque and charming Sidi Bou Said with Mediterranean coastal views.</p>
+                            <a href="#" class="btn btn-primary mt-auto">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact_us_green">
+        <div class="responsive-container-block big-container">
+            <div class="responsive-container-block container">
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b-2">
+                    <form class="form-box">
+                        <div class="container-block form-wrapper">
+                            <div class="head-text-box">
+                                <p class="text-blk contactus-head">
+                                    Contact us
+                                </p>
+                                <p class="text-blk contactus-subhead">
+                                    Have questions about our tours? Get in touch with us and start planning your Tunisian adventure today.
+                                </p>
+                            </div>
+                            <div class="responsive-container-block">
+                                <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-6">
+                                    <p class="text-blk input-title">
+                                        FIRST NAME
+                                    </p>
+                                    <input class="input" id="ijowk-6" name="FirstName" required>
+                                </div>
+                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                    <p class="text-blk input-title">
+                                        LAST NAME
+                                    </p>
+                                    <input class="input" id="indfi-4" name="LastName" required>
+                                </div>
+                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                    <p class="text-blk input-title">
+                                        EMAIL
+                                    </p>
+                                    <input class="input" id="ipmgh-6" name="Email" type="email" required>
+                                </div>
+                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                    <p class="text-blk input-title">
+                                        COUNTRY CODE
+                                    </p>
+                                    <select class="input" id="countryCode" name="CountryCode" required>
+                                        <option value="">Select Country Code</option>
+                                        <option value="+1">🇺🇸 United States +1</option>
+                                        <option value="+44">🇬🇧 United Kingdom +44</option>
+                                        <option value="+33">🇫🇷 France +33</option>
+                                        <option value="+49">🇩🇪 Germany +49</option>
+                                        <option value="+39">🇮🇹 Italy +39</option>
+                                        <option value="+34">🇪🇸 Spain +34</option>
+                                        <option value="+31">🇳🇱 Netherlands +31</option>
+                                        <option value="+32">🇧🇪 Belgium +32</option>
+                                        <option value="+41">🇨🇭 Switzerland +41</option>
+                                        <option value="+43">🇦🇹 Austria +43</option>
+                                        <option value="+46">🇸🇪 Sweden +46</option>
+                                        <option value="+47">🇳🇴 Norway +47</option>
+                                        <option value="+45">🇩🇰 Denmark +45</option>
+                                        <option value="+358">🇫🇮 Finland +358</option>
+                                        <option value="+353">🇮🇪 Ireland +353</option>
+                                        <option value="+48">🇵🇱 Poland +48</option>
+                                        <option value="+30">🇬🇷 Greece +30</option>
+                                        <option value="+351">🇵🇹 Portugal +351</option>
+                                        <option value="+216">🇹🇳 Tunisia +216</option>
+                                        <option value="+212">🇲🇦 Morocco +212</option>
+                                        <option value="+213">🇩🇿 Algeria +213</option>
+                                        <option value="+20">🇪🇬 Egypt +20</option>
+                                        <option value="+234">🇳🇬 Nigeria +234</option>
+                                        <option value="+27">🇿🇦 South Africa +27</option>
+                                        <option value="+86">🇨🇳 China +86</option>
+                                        <option value="+81">🇯🇵 Japan +81</option>
+                                        <option value="+82">🇰🇷 South Korea +82</option>
+                                        <option value="+91">🇮🇳 India +91</option>
+                                        <option value="+84">🇻🇳 Vietnam +84</option>
+                                        <option value="+66">🇹🇭 Thailand +66</option>
+                                        <option value="+65">🇸🇬 Singapore +65</option>
+                                        <option value="+60">🇲🇾 Malaysia +60</option>
+                                        <option value="+62">🇮🇩 Indonesia +62</option>
+                                        <option value="+63">🇵🇭 Philippines +63</option>
+                                        <option value="+61">🇦🇺 Australia +61</option>
+                                        <option value="+64">🇳🇿 New Zealand +64</option>
+                                        <option value="+1-604">🇨🇦 Canada +1</option>
+                                        <option value="+52">🇲🇽 Mexico +52</option>
+                                        <option value="+55">🇧🇷 Brazil +55</option>
+                                        <option value="+54">🇦🇷 Argentina +54</option>
+                                        <option value="+56">🇨🇱 Chile +56</option>
+                                        <option value="+57">🇨🇴 Colombia +57</option>
+                                        <option value="+51">🇵🇪 Peru +51</option>
+                                        <option value="+58">🇻🇪 Venezuela +58</option>
+                                    </select>
+                                </div>
+                                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                                    <p class="text-blk input-title">
+                                        PHONE NUMBER
+                                    </p>
+                                    <input class="input" id="imgis-5" name="PhoneNumber" type="tel" placeholder="e.g., 1234567890" pattern="[0-9\-\+\(\)\s]{7,}" required>
+                                </div>
+                                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-6">
+                                    <p class="text-blk input-title">
+                                        WHAT DO YOU HAVE IN MIND
+                                    </p>
+                                    <textarea class="textinput" id="i5vyy-6" name="Message" placeholder="Please enter query..." required></textarea>
+                                </div>
+                            </div>
+                            <div class="btn-wrapper">
+                                <button class="submit-btn" type="submit">
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+                    <div class="container-box">
+                        <div class="text-content">
+                            <p class="text-blk contactus-head">
+                                Contact us
+                            </p>
+                            <p class="text-blk contactus-subhead">
+                                Have questions about our tours? Get in touch with us and start planning your Tunisian adventure today.
+                            </p>
+                        </div>
+                        <div class="workik-contact-bigbox">
+                            <div class="workik-contact-box">
+                                <div class="phone text-box">
+                                    <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg" alt="Phone">
+                                    <p class="contact-text">
+                                        +216 1234 567
+                                    </p>
+                                </div>
+                                <div class="address text-box">
+                                    <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg" alt="Email">
+                                    <p class="contact-text">
+                                        info@saharadreams.com
+                                    </p>
+                                </div>
+                                <div class="mail text-box">
+                                    <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg" alt="Address">
+                                    <p class="contact-text">
+                                        Tunis, Tunisia
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="social-media-links">
+                                <a href="#">
+                                    <img class="social-svg" id="is9ym" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg" alt="Email">
+                                </a>
+                                <a href="#">
+                                    <img class="social-svg" id="i706n" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg" alt="Twitter">
+                                </a>
+                                <a href="#">
+                                    <img class="social-svg" id="ib9ve" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg" alt="Instagram">
+                                </a>
+                                <a href="#">
+                                    <img class="social-svg" id="ie9fx" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg" alt="Facebook">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2026 Sahara Dreams Travel Agency. All rights reserved.</p>
+                    <p class="mb-0 mt-2" style="font-size: 0.9rem; color: #ffc107;">Created by <strong>Mohamed Amine Gharbi</strong> | Student at <strong>GoMyCode</strong></p>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-end">
+                        <a href="#" class="text-white text-decoration-none me-3" title="Facebook">
+                            <i class="bi bi-facebook fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white text-decoration-none me-3" title="Instagram">
+                            <i class="bi bi-instagram fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white text-decoration-none me-3" title="Twitter">
+                            <i class="bi bi-twitter fs-5"></i>
+                        </a>
+                        <a href="#" class="text-white text-decoration-none" title="TripAdvisor">
+                            <i class="bi bi-globe fs-5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const formValues = Object.fromEntries(formData);
+            console.log('Form submitted:', formValues);
+            
+            // Show success message
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Message Sent!';
+            submitBtn.disabled = true;
+            
+            setTimeout(() => {
+                this.reset();
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+            }, 2000);
+        });
+
+        // Navbar styling on scroll
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.style.boxShadow = '0 2px 4px rgba(0,0,0,0.1)';
+            } else {
+                navbar.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
