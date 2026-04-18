@@ -1,6 +1,3 @@
-/* ========================================
-   CUSTOM TUNISIAN TRAVEL AGENCY THEME
-   ======================================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes:wght@400&family=Fredoka+One&family=Nunito:wght@200;300;400;600;700;800&display=swap');
 
@@ -15,10 +12,6 @@
     --border-radius: 8px;
 }
 
-/* ========================================
-   GENERAL STYLES
-   ======================================== */
-
 * {
     margin: 0;
     padding: 0;
@@ -32,9 +25,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* ========================================
-   NAVBAR STYLES
-   ======================================== */
 
 #navbar {
     background: linear-gradient(135deg, var(--dark-bg) 0%, #16213e 100%);
@@ -105,9 +95,6 @@ body {
     }
 }
 
-/* ========================================
-   HERO SECTION
-   ======================================== */
 
 .hero-section {
     height: 100vh;
@@ -183,9 +170,6 @@ body {
     color: #000 !important;
 }
 
-/* ========================================
-   DESTINATIONS SECTION
-   ======================================== */
 
 .destination-card {
     border: none;
@@ -244,9 +228,6 @@ body {
     transform: scale(1.05);
 }
 
-/* ========================================
-   TOURS SECTION
-   ======================================== */
 
 .tour-card {
     border: none;
@@ -335,9 +316,6 @@ body {
     transform: scale(1.02);
 }
 
-/* ========================================
-   TOURS/ACCORDION SECTION
-   ======================================== */
 
 .accordion {
     border: none;
@@ -393,9 +371,6 @@ body {
     letter-spacing: 0.5px;
 }
 
-/* ========================================
-   CONTACT SECTION
-   ======================================== */
 
 .contact_us_green * {
     font-family: Nunito, sans-serif;
@@ -680,9 +655,6 @@ body {
     }
 }
 
-/* ========================================
-   FOOTER
-   ======================================== */
 
 footer {
     background-color: var(--dark-bg) !important;
@@ -708,9 +680,6 @@ footer .bi {
     transition: all 0.3s ease;
 }
 
-/* ========================================
-   SECTION SPACING & TYPOGRAPHY
-   ======================================== */
 
 section {
     position: relative;
@@ -727,9 +696,6 @@ section {
     font-weight: 500;
 }
 
-/* ========================================
-   ANIMATIONS
-   ======================================== */
 
 @keyframes fadeInUp {
     from {
@@ -764,11 +730,7 @@ section {
     }
 }
 
-/* ========================================
-   RESPONSIVE DESIGN
-   ======================================== */
 
-/* Tablets (768px and up) */
 @media (max-width: 768px) {
     .hero-section {
         height: 70vh;
@@ -800,7 +762,6 @@ section {
     }
 }
 
-/* Mobile (576px and down) */
 @media (max-width: 576px) {
     .hero-section {
         height: 60vh;
@@ -865,7 +826,6 @@ section {
     }
 }
 
-/* Extra small devices */
 @media (max-width: 400px) {
     .hero-content h1 {
         font-size: 1.25rem;
@@ -888,18 +848,12 @@ section {
     }
 }
 
-/* ========================================
-   SCROLL EFFECTS
-   ======================================== */
 
 .scroll-reveal {
     opacity: 0;
     animation: fadeInUp 0.6s ease-out forwards;
 }
 
-/* ========================================
-   BUTTON STYLES ENHANCEMENT
-   ======================================== */
 
 .btn {
     font-weight: 600;
@@ -930,9 +884,6 @@ section {
     color: #000;
 }
 
-/* ========================================
-   UTILITY CLASSES
-   ======================================== */
 
 .py-5 {
     padding-top: 3rem !important;
@@ -947,14 +898,10 @@ section {
     max-width: 1200px;
 }
 
-/* Smooth transitions for all interactive elements */
 a, button, input, select, textarea {
     transition: all 0.3s ease;
 }
 
-/* ========================================
-   RESPONSIVE GRID SYSTEM
-   ======================================== */
 
 .wk-desk-1 { width: 8.333333%; }
 .wk-desk-2 { width: 16.666667%; }
